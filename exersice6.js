@@ -33,7 +33,7 @@ for (let n = 0; n < formula1Champions.length - 1; n++) {
 let winners = {};
 function countWin(driver) {
   let timeswon = [];
-  for (let c = 0; c < formula1Champions.sort().length - 1; c++) {
+  for (let c = 0; c < formula1Champions.sort().length; c++) {
     if (formula1Champions[c] === driver) {
       timeswon.push(formula1Champions[c]);
     }
